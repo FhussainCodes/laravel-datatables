@@ -9,3 +9,4 @@ Route::get('/', function () {
 
 Route::get('/students',[StudentController::class,'index']);
 Route::get('/students-data', [StudentController::class, 'getStudents']);
+
